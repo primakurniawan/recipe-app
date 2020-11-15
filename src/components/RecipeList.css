@@ -1,0 +1,23 @@
+.recipeListItem {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+}
+
+.recipeListItem:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+}
+
+.recipeListItem__img {
+  width: 25%;
+}
+
+.recipeListItem__img img {
+  width: 100%;
+}
+
+.recipeListItem__info {
+  width: 75%;
+}
