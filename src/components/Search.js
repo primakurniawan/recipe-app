@@ -16,7 +16,12 @@ const Search = ({ getSearchRecipesList }) => {
   return (
     <div className="search" onSubmit={onSubmit}>
       <form>
-        <input className="search__input" value={search} onChange={onChange} />
+        <input
+          className="search__input"
+          value={search}
+          onChange={onChange}
+          placeholder="Search Recipes Here"
+        />
         <input type="submit" value="Search" />
       </form>
     </div>

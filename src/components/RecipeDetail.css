@@ -1,0 +1,21 @@
+.recipeDetail {
+  padding: 1rem;
+}
+
+.recipeDetail__img {
+  width: 100%;
+}
+
+.recipeDetail__info--title {
+  text-decoration: none;
+  color: #000;
+}
+
+.recipeDetail__info--ingredients {
+  list-style: none;
+}
+
+.recipeDetail__info--ingredients__item {
+  margin: 0.25rem 0;
+  background-color: #eee;
+}

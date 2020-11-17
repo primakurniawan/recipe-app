@@ -1,0 +1,21 @@
+.chart__list {
+  list-style: none;
+}
+
+.chart__list__item {
+  margin: 0.25rem 0;
+  background-color: #eee;
+}
+
+.chart__list__item:hover {
+  background-color: #ccc;
+}
+
+.chart__list__item--delete {
+  background-color: red;
+  padding: 0.15rem;
+  outline: none;
+  border: none;
+  margin: 0.25rem;
+  font-weight: bold;
+}

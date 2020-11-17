@@ -1,4 +1,5 @@
 import React from "react";
+import "./RecipeDetail.css";
 
 const RecipeDetail = ({ recipeDetail, addToBasket }) => {
   const onClick = () => {
@@ -27,9 +28,11 @@ const RecipeDetail = ({ recipeDetail, addToBasket }) => {
             ))}
         </ul>
       </div>
-      <button className="addToBasket" onClick={onClick}>
-        Add To Basket
-      </button>
+      {recipeDetail.hasOwnProperty("ingredients") && (
+        <button className="addToBasket" onClick={onClick}>
+          Add To Basket
+        </button>
+      )}
     </div>
   );
 };
